@@ -7,7 +7,7 @@ module.exports = function(Book) {
       year < 1 ||
       year > new Date().getFullYear())
       err();
-  };
+  }
 
   Book.validate('year', bookYearValidator, {
     allowNull: false,
