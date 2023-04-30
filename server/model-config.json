@@ -14,33 +14,33 @@
     ]
   },
   "User": {
-    "dataSource": "pgsql_db"
+    "dataSource": "db"
   },
   "AccessToken": {
-    "dataSource": "pgsql_db",
+    "dataSource": "db",
     "public": false
   },
   "ACL": {
-    "dataSource": "pgsql_db",
+    "dataSource": "db",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "pgsql_db",
+    "dataSource": "db",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "pgsql_db",
+    "dataSource": "db",
     "public": false
   },
   "Author": {
-    "dataSource": "pgsql_db",
+    "dataSource": "db",
     "public": true
   },
   "Book": {
-    "dataSource": "pgsql_db",
+    "dataSource": "db",
     "public": true
   }
 }

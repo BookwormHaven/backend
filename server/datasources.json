@@ -1,6 +1,7 @@
 {
   "db": {
     "name": "db",
-    "connector": "memory"
+    "connector": "postgresql",
+    "url": "postgres://postgres:postgres@localhost:5432/bookworm_haven"
   }
 }
