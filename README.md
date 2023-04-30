@@ -27,6 +27,6 @@ This project has the following dependencies:
 ## Getting Started
 
 1. Set the environment variables defined in `.env.example`
-2. Copy the client build into `/client`
+2. Copy the client build into `/client` (optional)
 3. Build the docker image: `docker build -t bookworm_haven .`
-4. Start the container: `docker run -p <port>:<port> --env-file=.env bookworm_haven`
+4. Start the container: `docker run -d -p <port>:<port> --env-file=.env bookworm_haven`
