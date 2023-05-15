@@ -29,7 +29,7 @@
     "author": {
       "type": "belongsTo",
       "model": "Author",
-      "foreignKey": ""
+      "foreignKey": "authorId"
     }
   },
   "acls": [],
